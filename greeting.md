@@ -4,9 +4,9 @@
 
 ##My name is Tyson McCrary from Chattanooga,TN.  I have a degree in engineering from Tuskegee University, with a concentration in Mechanical Engineering.
 
-<img src = "https://upload.wikimedia.org/wikipedia/commons/d/dd/Tuskegee_University_College_of_Engineering_-Luther_H._Foster_Hall.JPG"
+![alt text] (https://upload.wikimedia.org/wikipedia/commons/d/dd/Tuskegee_University_College_of_Engineering_-Luther_H._Foster_Hall.JPG)
 
-##Currently, I have been working in the education field in hopes of inspiring young minds to become Great.
+##Currently, I have been working in the Education Field in hopes of inspiring young minds to become Great.
 
 ##Hobbies include
 ---Music and Entertainment
