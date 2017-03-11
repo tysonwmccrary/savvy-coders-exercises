@@ -9,18 +9,22 @@
 </head>
 <body>
 
-  <form>
-    <label>First name:</label><br>
-    <input type="text" name="firstname"><br>
-    <label>Last name:</label><br>
-    <input type="text" name="lastname"><br>
-    <label>Email:</label><br>
-    <input type="email"><br>
-    <label>Message:</label><br>
-    <textarea name="message" rows="25" col="25"></textarea>
+  <div id="contact_form">
+    <form>
+    <label class="hidden">First Name:</label><br>
+    <input type="text" name="firstname" placeholder="Firstname">
+    <br>
+    <label class="hidden">Last Name:</label><br>
+    <input type="text" name="lastname" placeholder="Lastname">
+    <br>
+    <label class="hidden">Email:</label><br>
+    <input type="text" name="email" placeholder="Email Address">
+    <br>
+    <label class="hidden">Message:</label><br>
+    <textarea name="message" rows="25" col="25" placeholder="Message"></textarea>
     <br>
     <input type="submit" value="Submit">
   </form>
 
-</body>
+
 </html>

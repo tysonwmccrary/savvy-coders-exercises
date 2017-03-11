@@ -8,4 +8,16 @@ li {color: white}
 a {color: white;}
 body {background-color: black;}
 
-form {width: 500px;}
+.hidden {display: none;}
+
+
+
+#contact_form {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100;
+  background-color: #aa3333
+}
+input,textarea {
+  padding: 10px 15px
+}
