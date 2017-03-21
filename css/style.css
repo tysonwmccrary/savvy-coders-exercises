@@ -12,6 +12,24 @@ body {background-color: black;}
 
 
 
+#logo {
+  display: inline;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+
+}
+
+#links {
+  display: inline;
+  margin: 0px auto 0px auto;
+  font-size: 200%;
+  font-style: normal;
+  text-align: center;
+  }
+
+
+
 #contact_form {
   width: 400px;
   margin: 0 auto;
