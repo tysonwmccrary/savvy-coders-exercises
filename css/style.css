@@ -1,26 +1,39 @@
 
-h1 {font-family: verdana;}
+@@font-face {
+  font-family: 'inherit';
+  src: url('/Users/trademark/Documents/Tyson McCrary/FONTS');
+}
+
+h1 {font-family: inherit;}
 h1 {color: white;}
+h2 {color: white;}
+p {font-family:'inherit';}
 p {color: white;}
 label {color: white;}
 i {font-size: 300%;}
-li {color: white}
+dd {color: white}
+dt {color: white}
 a {color: white;}
-body {background-color: black;}
+body {background-color: steelblue;
+      margin-left: 10px;
+    }
 
 .hidden {display: none;}
+
+#photo {background-color: black;}
 
 
 
 #logo {
   display: inline;
+  float: none;
     width: 150px;
     height: 75px;
     margin: 10px;
 
 }
 
-#links {
+#header {
   display: inline;
   margin: 0px auto 0px auto;
   font-size: 200%;
@@ -32,10 +45,15 @@ body {background-color: black;}
 
 #contact_form {
   width: 400px;
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
   margin-top: 100;
-  background-color: #aa3333
+  background-color: gray;
+  border-radius: 10px;
 }
 input,textarea {
-  padding: 10px 15px
+  margin-left: 30px;
+  padding: 10px 15px;
+  border: 3px solid;
+  border-color: darkred;
+  border-radius: 5px;
 }
