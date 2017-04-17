@@ -7,30 +7,66 @@
 h1 {font-family: inherit;}
 h1 {color: white;}
 h2 {color: white;}
+h3 {color: white;}
 p {font-family:'inherit';}
 p {color: white;}
 label {color: white;}
 i {font-size: 300%;}
-dd {color: white}
-dt {color: white}
-a {color: white;}
+a {color: darkred;}
 body {background-color: steelblue;
       margin-left: 10px;
-    }
+}
+ #photo {
+   float: left;
+   margin-right: 10px;
+}
+
+#wrap {
+  background-color: white;
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: black;
+}
+
+
+#blockquote {
+float: right;
+width: 200px;
+font-size: 130%
+font-style: italic;
+font-family: Georgia, Times. serif;
+margin: 0px 10px 10px 10px;
+padding: 25px;
+border-top: 2px solid white;
+border-bottom: 2px solid white;
+}
+
 
 .hidden {display: none;}
 
-#photo {background-color: black;}
+#background {
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+}
 
+.home{
+  background-color: gold;
+  margin: 0px 400px 0px 0px;
+  padding: 10px;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 5px
+}
 
-
-#logo {
-  display: inline;
-  float: none;
-    width: 150px;
-    height: 75px;
-    margin: 10px;
-
+#footer {
+  text-align: center;
+  h7 color: black;
+  background-color: darkgray;
+  margin: 0px 10px 0px 10px;
+  padding: 10px;
+  font-style: normal;
+  border: solid 2px;
+  border-radius: 5px;
 }
 
 #header {
@@ -39,12 +75,18 @@ body {background-color: steelblue;
   font-size: 200%;
   font-style: normal;
   text-align: center;
-  }
+}
 
-
+.info {
+  background-color: darkred;
+  padding: 5px 10px;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 5px;
+}
 
 #contact_form {
-  width: 400px;
+  width: 500px;
   margin: 0 auto 0 auto;
   margin-top: 100;
   background-color: gray;
